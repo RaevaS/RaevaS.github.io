@@ -1,0 +1,25 @@
+.name{
+    position: absolute;
+    top: 300px;
+    left: 400px;
+    font-size: 100px;
+    font-family: cursive;
+    color: lightskyblue;
+}
+body{
+    background-color: blueviolet;
+}
+.future{
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: lightyellow;
+    color: darkgoldenrod;
+}
+
+.end{
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: black;
+    color: white;
+}
+
