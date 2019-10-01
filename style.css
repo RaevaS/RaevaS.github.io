@@ -1,0 +1,24 @@
+body{
+    background-color: rgb(247, 245, 244);
+    font-family: effra, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#header{
+    text-decoration: none;
+    font-style: italic;
+    color: #ffffff;
+    text-align: center;
+    background-color:black;
+    padding: 1%;
+}
+
+#classitems{
+    text-decoration: none;
+    color: #ffffff;
+    text-align: center;
+    background-color: rgb(207, 148, 141);
+    padding: 1%;
+}
+
