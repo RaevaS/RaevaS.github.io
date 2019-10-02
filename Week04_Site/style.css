@@ -1,16 +1,55 @@
 body{
     background-color: rgb(255,206,191);
-    font-size: 18 pt;
+    font-size: large;
     font-family: 'EB Garamond', serif;
 }
 
 .box{
     float: left;
-    margin-right: 20px;
+    margin: 20px;
     width: 300px;
     height: 250px;
     border-radius: 10px;
     background-color: rgb(216,224,255);
     padding: 1em;
-
 }
+
+.wrapper{
+    background-color: rgb(255,206,191);
+    padding:10px;
+    color: #fff;
+}
+
+.special{
+    background-color: rgb(232,169,162);
+    font-size: 18pt;
+    padding: 5px;
+    color: #fff;
+}
+
+.cleared {
+    clear: left;
+}
+
+.wrapper::after {
+    content: "";
+    clear: both;
+    display: block;
+  }
+
+  /* Alternative ways to clear box
+  .wrapper {
+  background-color: rgb(255,206,191);
+  padding: 10px;
+  color: #fff;
+  overflow: auto; 
+}
+.wrapper {
+  background-color: rgb(79,185,227);
+  padding: 10px;
+  color: #fff;
+  display: flow-root; 
+}
+*/
+
+
