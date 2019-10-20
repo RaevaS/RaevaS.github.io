@@ -1,0 +1,75 @@
+body{
+    background-color: #242f40;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.titles{
+    font-family: 'Playfair Display', serif;
+    font-size: 50px; 
+    color: #a88c6b;
+}
+
+.captions{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px; 
+    color: #a88c6b;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 100px;
+    grid-row-gap: 20px;
+    border:20px;
+    padding: 100px;
+  }
+  
+.mainimage {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 7;
+  }
+  
+.mainaside {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 5;
+    grid-row-end: 7;
+  }
+
+.items{
+    background-color: #e2d0be; 
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 7;
+    grid-row-end: 30;
+}
+
+.services{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 6;
+    grid-row-end: 10;
+}
+
+.work{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 11;
+    grid-row-end: 15;
+}
+
+.blog{
+    background-color: cadetblue;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start:16;
+    grid-row-end:20;
+}
+
+
+
+
+  
