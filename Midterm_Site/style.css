@@ -61,14 +61,14 @@ body{
 }
 
 .overlaytext{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Playfair Display', serif;
     font-size: 50px; 
     color: #dbdbdb;
     writing-mode: vertical-rl;
     text-orientation: mixed;
     position: absolute;
-    left:0;
-    right:0;
+    top: 100px;
+    left: 200px;
 
 }
 
