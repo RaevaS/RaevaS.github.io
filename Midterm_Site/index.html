@@ -2,6 +2,7 @@
 <html lang="en">
 
 	<head>
+        <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale-1">
         <meta charset="utf-8">
         <link href="style.css" rel="stylesheet" type="text/css">
         <link href="https://fonts.googleapis.com/css?family=Montserrat|Playfair+Display&display=swap" rel="stylesheet">
@@ -9,6 +10,9 @@
         <title>Present</title>
     </head>
     <body>
+        <div class="logo">
+                <a href="index.html"><img style="width:80px; height:80px" src="assets/logo.png"></a>
+        </div>
         <div class="wrapper">
             <div class="mainimage">
                 <!--<video style="width:100%; height:100%" src="assets/Jewel.mp4" autoplay loop muted></video>-->
@@ -17,46 +21,62 @@
                 <div class="mainaside">
                     <p><div class="titles">PRESENT</div>
                         <br><br>
-                        <br><div class="captions"><i>STAY PRESENT</i></div><br>
+                        <a href="index.html" style="text-decoration: none;"><br><div class="captions"><i>STAY PRESENT</i></div><br></a> 
                         
                     </p>
                     
                 </div>
 
             <div class="items"></div>
-            <!--
             <div class="overlaytext">
-                <p>SERVICES</p>
+                <p id="service">SERVICES</p>
+                <p id="work">WORK</p>
+                <p id="blog">BLOG</p>
             </div>
-            -->
             <div class="services" >
-                <img style="width:100%; height:100%" src="assets/luxgift.jpg"> 
+                    <a href="services.html"><img style="width:100%; height:100%" src="assets/luxgift.jpg"> </a>
             </div>
                 <div class="servicestext">
-                    <p><div class="captions">QUICK. EASY. REWARDING.</div></p>
-                    <p><div class="captions"><i>GET STARTED NOW</i></div></p>
+                    <div class="captions">
+                        <p>
+                            QUICK. EASY. REWARDING.
+                            <br><br>
+                            <a href="services.html" style="text-decoration: none;"><i>GET STARTED NOW</i></a>
+                        </p>
+                    </div>
                 </div>
 
+            
             <div class="work">
-                
-                <img style="width:100%; height:100%" src="assets/work.jpg"> 
+                <a href="work.html"><img style="width:100%; height:100%" src="assets/work.jpg"></a>
             </div>
             <div class="worktext">
-                    <p><div class="captions">SEE MORE ABOUT US</div></p>
+                <div class="captions">
+                <p>
+                    TAKE A LOOK AT WHAT MAKES US SPECIAL. 
+                <br><br>
+                <a href="work.html" style="text-decoration: none;"">SEE MORE ABOUT US</a>
+                </p>
+                </div>
             </div>
             <div class="blog">
-                <img style="width:100%; height:100%" src="assets/blog.jpg">
+                <a href="blog.html"><img style="width:100%; height:100%" src="assets/blog.jpg"></a>
             </div> 
             <div class="blogtext">
-                    <p><div class="captions">LEARN MORE ABOUT GIFTING</div></p>
+                    <div class="captions">
+                        <p>
+                            SO WHAT IS IT ABOUT GIFTING THAT MAKES OUR HEARTS FULL? 
+                        <br><br>
+                        <a href="blog.html" style="text-decoration: none;">LEARN MORE HERE</a>
+                        </p>
+                        </div>
             </div>
         </div>
 
             <div class="footer">
-                <a href="#"><div class="captions">SERVICES</div></a>
-                <a href="#"><div class="captions">WORK</div></a>
-                <a href="#"><div class="captions">BLOG</div></a>
-                <a href="#"><div class="captions">CONTACT</div></a>
+                <a href="services.html"><div class="captions">SERVICES</div></a>
+                <a href="work.html"><div class="captions">WORK</div></a>
+                <a href="blog.html"><div class="captions">BLOG</div></a>
             </div>
     </body>
     
