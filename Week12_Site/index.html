@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="http://netdna.bootstrapcdn.com/bootswatch/3.0.3/united/bootstrap.min.css" rel="stylesheet" type="text/css" media="all">
+    <link href="style.css" rel="stylesheet" type="text/css" media="all">
+    <title>Raeva Madlibs</title>
+  </head>
+  <!--Madlibs Tutorial by Michael Hurman-->
+  <body>
+    <div class="container">
+        <h1>Madlibs!</h1>
+<div id="questions">
+    <h1>Get Started...</h1>
+    <hr>
+    <form role="form">
+      <div class="form-group">
+        <label for="object">Object</label>
+        <input id="object" class="form-control object" type="text" placeholder="Enter an object">
+      </div>
+      <div class="form-group">
+        <label for="verb">Verb</label>
+        <input id="verb" class="form-control verb" type="text" placeholder="Enter a verb">
+      </div>
+      <div class="form-group">
+        <label for="adjective">Adjective</label>
+        <input id="adjective" class="form-control adjective" type="text" placeholder="Enter an adjective">
+      </div>
+      <div class="form-group">
+        <label for="name">Name</label>
+        <input id="name" class="form-control name" type="text" placeholder="Enter a name">
+      </div>
+      <div class="form-group">
+        <label for="verb2">Another Verb</label>
+        <input id="verb2" class="form-control verb2" type="text" placeholder="Enter a verb">
+      </div>
+      <div>
+      </div>
+    </form>
+    <button id="btn-click" type="submit" class="btn btn-warning btn-lg">Generate!</button>
+    <hr>
+  </div>
+        <div id="story">
+            <h2>I went to the store to buy a <span class="object"></span> turns out it was expired. So I <span class="verb"></span> back to the store. Once I got the <span class="object"></span>, I decided to get a <span class="adjective"></span> cup of tea, where I ran into <span class="name"></span>. We talked for a bit then I <span class="verb2"></span> home.
+            </h2>
+        </div>
+    </div>
+    <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
