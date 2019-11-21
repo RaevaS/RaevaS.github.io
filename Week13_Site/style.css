@@ -1,0 +1,52 @@
+.name{
+    position: absolute;
+    top: 300px;
+    left: 400px;
+    font-size: 100px;
+    font-family: cursive;
+    color:white;
+    text-decoration: none;
+}
+
+
+.stars{
+    animation: fade 1s infinite alternate ;
+    animation-name: fade
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.future{
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: lightyellow;
+    color: darkgoldenrod;
+}
+
+.end{
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: black;
+    color: white;
+}
+
+/* galaxy tutorial -- \https://codepen.io/shairose/pen/mZPYKB*/
+
+canvas {
+    display: block;
+    background: black;
+    width: calc(100% - 20px);
+    height: calc(100% - 20px);
+  }
+
+@keyframes fade{
+    0%{
+        opacity: 0.3;
+    }
+}
+  
+
+
