@@ -15,12 +15,124 @@
   </head>
 
 
-  <body>
+  <div class="sidebarwrapper">
+      <nav id="sidebar">
+        <div class="sidebar-header">
+          <h3>MENTAL MEDIA</h3>
+        </div>
+        <!-- Navbar Menu List-->
+        <ul class="list-unstyled components">
+            <li>
+                <a href="about.html">About</a>
+            </li>
+          <li class="active">
+            <a href="#emotionsSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Emotions</a>
+            <!--Navbar SubMenu List-->
+            <ul class="collapse list-unstyled" id="emotionsSubmenu">
+              <li>
+                <a href="happiness.html">Happiness</a>
+              </li>
+              <li>
+                <a href="sadness.html">Sadness</a>
+              </li>
+              <li>
+                <a href="anger.html">Anger</a>
+              </li>
+              <li>
+                  <a href="hunger_thirst.html">Hunger/Thirst</a>
+              </li>
+            </ul>
+          </li>
+          <li class="active">
+            <a href="#entriesSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Entries</a>
+            <ul class="collapse list-unstyled" id="entriesSubmenu">
+              <li>
+                <a href="week1.html">Week 1</a>
+              </li>
+            </ul>
+          </li>
+      </ul>
+    </nav>
 
-    
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-  </body> 
+    <!-- Main Page Content Area-->
+    <div class= "container-fluid">
+      <!-- "Navbar" with Align Justify Sidebar toggle-->
+        <nav class="navbar navbar-light bg-light">
+            <button type="button" id="sidebarCollapse" class="btn btn-info">
+                <img src="assets/align-justify-512 (1).png"></i>
+            </button>
+            <span class="navbar-brand mx-auto d-block text-center order-0 order-md-1 w-25 h1"><a href="index.html" style="text-decoration: none;">Mental Media</a></span>
+          </nav>
+        
+          <section class="jumbotron text-center">
+              <div class="container">
+                <h1>Sadness</h1>
+                <p class="lead text-muted">“Sadness is but a wall between two gardens.”
+                  <br>
+                  - Khalil Gibran
+                </p>      
+                </div>
+          </section>
+              <img class="container" src="assets/sadness.jpg"></img>
+         
+          <div class="album py-5 bg-light">
+              
+              <div class="container-fluid">
+          
+                <div class="row">
+                  <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm">
+                      <img class="bd-placeholder-img card-img-top" src="assets/TED.png" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect></img>
+                      <div class="card-body">
+                        <p class="card-text">Delve into resources from TED about sadness. Unpack more about what sadness actually is. How are you coping with sadness?</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                          <div class="btn-group">
+                              <a href="https://www.ted.com/search?cat=talks&q=sad"><button type="button" class="btn btn-sm btn-outline-secondary">View</button></a>
+                          </div>
+                          <small class="text-muted">explore</small>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm">
+                      <img class="bd-placeholder-img card-img-top" src="assets/PsychTodayIcon.png" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect></img>
+                      <div class="card-body">
+                        <p class="card-text">What catalyzes sadness? What is the psychology behind it? Take a look at Psychology Today. Get real answers. </p>
+                        <div class="d-flex justify-content-between align-items-center">
+                          <div class="btn-group">
+                            <a href="https://www.psychologytoday.com/us/search/site/sadness"><button type="button" class="btn btn-sm btn-outline-secondary">View</button></a>
+                          </div>
+                          <small class="text-muted">learn</small>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm">
+                        <img class="bd-placeholder-img card-img-top" src="assets/kindle.jpeg" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect></img>
+                      <div class="card-body">
+                        <p class="card-text">Start working towards understanding sadness. Pick what suits you best.</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                          <div class="btn-group">
+                            <a href= "https://www.amazon.com/s?k=sadness&i=stripbooks&ref=nb_sb_noss"><button type="button" class="btn btn-sm btn-outline-secondary">View</button></a>
+                          </div>
+                          <small class="text-muted">take action</small>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+          </div>   
+        </div>
+        </div>
+    </div>
+
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body> 
+  
+ 

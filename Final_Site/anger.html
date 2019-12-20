@@ -15,12 +15,124 @@
   </head>
 
 
-  <body>
+  <div class="sidebarwrapper">
+      <nav id="sidebar">
+        <div class="sidebar-header">
+          <h3>MENTAL MEDIA</h3>
+        </div>
+        <!-- Navbar Menu List-->
+        <ul class="list-unstyled components">
+            <li>
+                <a href="about.html">About</a>
+            </li>
+          <li class="active">
+            <a href="#emotionsSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Emotions</a>
+            <!--Navbar SubMenu List-->
+            <ul class="collapse list-unstyled" id="emotionsSubmenu">
+              <li>
+                <a href="happiness.html">Happiness</a>
+              </li>
+              <li>
+                <a href="sadness.html">Sadness</a>
+              </li>
+              <li>
+                <a href="anger.html">Anger</a>
+              </li>
+              <li>
+                  <a href="hunger_thirst.html">Hunger/Thirst</a>
+              </li>
+            </ul>
+          </li>
+          <li class="active">
+            <a href="#entriesSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Entries</a>
+            <ul class="collapse list-unstyled" id="entriesSubmenu">
+              <li>
+                <a href="week1.html">Week 1</a>
+              </li>
+            </ul>
+          </li>
+      </ul>
+    </nav>
 
-    
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-  </body> 
+    <!-- Main Page Content Area-->
+    <div class= "container-fluid">
+      <!-- "Navbar" with Align Justify Sidebar toggle-->
+        <nav class="navbar navbar-light bg-light">
+            <button type="button" id="sidebarCollapse" class="btn btn-info">
+                <img src="assets/align-justify-512 (1).png"></i>
+            </button>
+            <span class="navbar-brand mx-auto d-block text-center order-0 order-md-1 w-25 h1"><a href="index.html" style="text-decoration: none;">Mental Media</a></span>
+          </nav>
+        
+          <section class="jumbotron text-center">
+              <div class="container">
+                <h1>Anger</h1>
+                <p class="lead text-muted">“For every minute you remain angry, you give up sixty seconds of peace of mind.”
+                  <br>
+                  - Ralph Waldo Emerson
+                </p>      
+                </div>
+          </section>
+              <img class="container" src="assets/anger.jpg"></img>
+         
+          <div class="album py-5 bg-light">
+              
+              <div class="container-fluid">
+          
+                <div class="row">
+                  <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm">
+                      <img class="bd-placeholder-img card-img-top" src="assets/TED.png" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect></img>
+                      <div class="card-body">
+                        <p class="card-text">Explore resources from TED on anger. What actually sparks anger? How do you manage anger?</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                          <div class="btn-group">
+                              <a href="https://www.ted.com/search?q=anger"><button type="button" class="btn btn-sm btn-outline-secondary">View</button></a>
+                          </div>
+                          <small class="text-muted">explore</small>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm">
+                      <img class="bd-placeholder-img card-img-top" src="assets/PsychTodayIcon.png" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect></img>
+                      <div class="card-body">
+                        <p class="card-text">What is the psychology of anger? Take a look at Psychology Today. Get real answers. </p>
+                        <div class="d-flex justify-content-between align-items-center">
+                          <div class="btn-group">
+                            <a href="https://www.psychologytoday.com/us/search/site/anger"><button type="button" class="btn btn-sm btn-outline-secondary">View</button></a>
+                          </div>
+                          <small class="text-muted">learn</small>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm">
+                        <img class="bd-placeholder-img card-img-top" src="assets/kindle.jpeg" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect></img>
+                      <div class="card-body">
+                        <p class="card-text">Take action towards managing your anger. Pick what suits you best.</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                          <div class="btn-group">
+                            <a href= "https://www.amazon.com/s?k=anger&i=stripbooks&ref=nb_sb_noss_1"><button type="button" class="btn btn-sm btn-outline-secondary">View</button></a>
+                          </div>
+                          <small class="text-muted">take action</small>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+          </div>   
+        </div>
+        </div>
+    </div>
+
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body> 
+  
+ 
